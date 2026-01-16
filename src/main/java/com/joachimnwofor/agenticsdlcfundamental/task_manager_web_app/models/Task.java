@@ -30,10 +30,10 @@ public class Task {
     public Task() {}
 
     // Convenience constructor (id is generated)
-    public Task(String title, String description, TaskStatus status) {
+    public Task(String title, String description, TaskStatus todo) {
         this.title = title;
         this.description = description;
-        this.status = status;
+        this.status = todo;
     }   
 
     public Long getId() {
